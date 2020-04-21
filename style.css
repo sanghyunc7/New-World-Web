@@ -1,0 +1,20 @@
+body, html{
+    font-family: 'Raleway', sans-serif;
+    background-color: aqua;
+}
+
+#introduction {
+
+    background-color: #ccc;
+}
+
+#countries {
+    color: red;
+
+
+}
+
+.bear {
+    color: brown;
+
+}
