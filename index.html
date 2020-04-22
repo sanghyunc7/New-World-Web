@@ -15,7 +15,7 @@
 
     <div id="links">
         <ol>
-            <li> <a href="#parts"> A general list of parts to buy</a></li>
+            <li> <a href="#costs"> A general list of parts to buy</a></li>
             <li> <a href="#accessory"> More accesories, (read RGB)</a></li>
         </ol>
     </div>
@@ -23,103 +23,99 @@
     <div id="introduction">
         <p> Hello. This is a very simple pc building guide. Here's a list of what you need.</p>
         <img src="images/flower.JPG" alt="flower" style="width:25vw;height:auto;"> </img>
-        <ul id="parts">
-            <li>cpu</li>
-            <li>motherboard</li>
-            <li>ram</li>
-            <li>psu</li>
-            <li>case</li>
-            <li>cpu cooler</li>
-            <li>gpu</li>
-            <li>case fans</li>
-            <li>SSD</li>
-            <li>am i forgetting anything?</li>
-        </ul>
     </div>
+
     <table id="costs" style="width:100%">
-        <tr>
-            <th>Part</th>
-            <th>Description</th>
-            <th>Cost</th>
-        </tr>
-        <tr>
-            <td>cpu</td>
-            <td>Central processing unit. Get a ryzen 3600.</td>
-            <td>around 260 CAD</td>
-        </tr>
-        <tr>
-            <td>motherboard</td>
-            <td>Connects other parts together. Get a B450.</td>
-            <td>around 150 CAD for a decent one.</td>
-        </tr>
-        <tr>
-            <td>ram</td>
-            <td>Your memory. 16 gb if you're a plebs like me. 32+ if you're a pro.
-                Make sure you're getting ddr4. Forget about timing and speed.
-            </td>
-            <td>around 100 CAD/16 gb set.</td>
-        </tr>
-        <tr>
-            <td>psu</td>
-            <td>The power supply. Don't cheap out. Take the TDP sum of your components
-                with a grain of salt, especially if you're overclocking. However, for this
-                build, I suggest a 500 watt semi modular model (SFX for some ITX builds.
-                But that's another discussion for another day)
-            </td>
-            <td>around 90 CAD</td>
-        </tr>
-        <tr>
-            <td>case</td>
-            <td>Choose a pretty one with okay airflow. Glass panels might look pretty,
-                but they can also suffocate your components. A mesh-front helps with airflow.
-            </td>
-            <td>around 110 CAD</td>
-        </tr>
-        <tr>
-            <td>cpu cooler</td>
-            <td>The stock cooler is fine. But for edginess points you can get a giant
-                dual tower air cooler like the nh-d15 or an AIO liquid cooler. Don't 
-                even think about a custom loop for a Ryzen 3600.
-            </td>
-            <td>potentially 0. Or spend 1000 CAD for a pc-master-race worthy custom loop</td>
-        </tr>
-        <tr>
-            <td>gpu</td>
-            <td>The graphics card. This is the real deal. You should allocate the biggest
-                chunk of your budget for this bad boy. Prepare to spend at least 400 CAD 
-                just for a mid-tier card.
-            </td>
-            <td>
-                200 to 1600 CAD. Sweet spot for most people lies around 400.
-            </td>
-        </tr>
-        <tr>
-            <td>case fans</td>
-            <td>Bring air closer to your gpu and cpu. Also propels the hot air out.
-                Install some at the back of your case as exhaust fans. And some at
-                the front too if you have any left.
-            </td>
-            <td>
-                50 CAD for a set of 5 from Deepcool. That's not bad.
-            </td>
-        </tr>
-        <tr>
-            <td>SSD</td>
-            <td>Solid State Drive. Something to store your data in.
-                Get an NVMe. Makes your life easier. Add 2.5 inch ones later on for 
-                additional capacity. Please don't get a hard drive.
-            </td>
-            <td>
-                around 100 CAD for 512 Gb
-            </td>
-        </tr>
+        <thead>
+            <tr>
+                <th class = "part_col">Part</th>
+                <th class = "des_col">Description</th>
+                <th class = "cost_col">Cost</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class = "part_col">cpu</td>
+                <td class = "des_col">Central processing unit. Get a ryzen 3600.</td>
+                <td>around 260 CAD</td>
+            </tr>
+            <tr>
+                <td class = "part_col">motherboard</td>
+                <td class = "des_col">Connects other parts together. Get a B450.</td>
+                <td>around 150 CAD for a decent one.</td>
+            </tr>
+            <tr>
+                <td class = "part_col">ram</td>
+                <td class = "des_col">Your memory. 16 gb if you're a pleb like me. 32+ if you're a pro.
+                    Make sure you're getting ddr4. Forget about timing and speed.
+                </td>
+                <td>around 100 CAD/16 gb set.</td>
+            </tr>
+            <tr>
+                <td class = "part_col">psu</td>
+                <td class = "des_col">The power supply. Don't cheap out. Take the TDP sum of your components
+                    with a grain of salt, especially if you're overclocking. However, for this
+                    build, I suggest a 500 watt semi modular model (SFX for some ITX builds.
+                    But that's another discussion for another day)
+                </td>
+                <td>around 90 CAD</td>
+            </tr>
+            <tr>
+                <td class = "part_col">case</td>
+                <td class = "des_col">Choose a pretty one with okay airflow. Glass panels might look pretty,
+                    but they can also suffocate your components. A mesh-front helps with airflow.
+                </td>
+                <td>around 110 CAD</td>
+            </tr>
+            <tr>
+                <td class = "part_col">cpu cooler</td>
+                <td class = "des_col">The stock cooler is fine. But for edginess points you can get a giant
+                    dual tower air cooler like the nh-d15 or an AIO liquid cooler. Don't
+                    even think about a custom loop for a Ryzen 3600.
+                </td>
+                <td>potentially 0. Or spend 1000 CAD for a pc-master-race worthy custom loop</td>
+            </tr>
+            <tr>
+                <td class = "part_col">gpu</td>
+                <td class = "des_col"> The graphics card. This is the real deal. You should allocate the biggest
+                    chunk of your budget for this bad boy. Prepare to spend at least 400 CAD
+                    just for a mid-tier card.
+                </td>
+                <td>
+                    200 to 1600 CAD. Sweet spot for most people lies around 400.
+                </td>
+            </tr>
+            <tr>
+                <td class = "part_col">case fans</td>
+                <td class = "des_col">Bring air closer to your gpu and cpu. Also propels the hot air out.
+                    Install some at the back of your case as exhaust fans. And some at
+                    the front too if you have any left.
+                </td>
+                <td>
+                    50 CAD for a set of 5 from Deepcool. That's not bad.
+                </td>
+            </tr>
+            <tr>
+                <td class = "part_col">SSD</td>
+                <td class = "des_col">Solid State Drive. Something to store your data in.
+                    Get an NVMe. Makes your life easier. Add 2.5 inch ones later on for
+                    additional capacity. Please don't get a hard drive.
+                </td>
+                <td>
+                    around 100 CAD for 512 Gb
+                </td>
+            </tr>
+        </tbody>
+
 
 
     </table>
     <br><br>
     <div id="Building Process">
         <h3>Building Process</h3>
-        <p>Just search it up on the internet. EZ.</p>
+        <p>It's basically LEGO. EZ.</p>
+        <a href="https://www.youtube.com/watch?v=IhX0fOUYd8Q">
+            Or you can watch this video from another dude.</a>
     </div>
     <div id="accessory">
         <h3>Accessory</h3>
@@ -140,6 +136,8 @@
             </li>
         </ul>
     </div>
+    <div style="height: 100px; background-color: black;"> hi </div>
+    <div id="bottom"></div>
 
 
 

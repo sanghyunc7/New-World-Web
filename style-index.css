@@ -1,4 +1,28 @@
 body, html {
     font-family: 'Raleway', sans-serif;
-    background-color: tan;
+    background-color: gainsboro;
+    margin: 0 0 0 0;
+    font-size: 22px;
+}
+
+#bottom {
+    width: 100vw;
+    
+}
+
+table, td {
+  margin: 0 0 0 0;
+
+}
+
+.part_col {
+    background-color: aqua;
+    height: 100px;
+    width: 200px;
+    text-align: center;
+}
+
+.des_col {
+    background-color: orchid;    
+    text-align: center;
 }
