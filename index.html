@@ -3,15 +3,15 @@
 
 <head>
     <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href = "style-index.css">
+    <link rel="stylesheet" href="style-index.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
 
 <body>
-    <h1> SIMPLE PC BUILDING GUDE</h1>
-   
+    <h1> SIMPLE PC BUILDING GUIDE</h1>
+
 
     <div id="links">
         <ol>
@@ -22,7 +22,7 @@
     <br><br>
     <div id="introduction">
         <p> Hello. This is a very simple pc building guide. Here's a list of what you need.</p>
-        <img src = "images/flower.JPG" alt = "flower" height="200" width="auto"> </img>
+        <img src="images/flower.JPG" alt="flower" style="width:25vw;height:auto;"> </img>
         <ul id="parts">
             <li>cpu</li>
             <li>motherboard</li>
@@ -36,26 +36,106 @@
             <li>am i forgetting anything?</li>
         </ul>
     </div>
+    <table id="costs" style="width:100%">
+        <tr>
+            <th>Part</th>
+            <th>Description</th>
+            <th>Cost</th>
+        </tr>
+        <tr>
+            <td>cpu</td>
+            <td>Central processing unit. Get a ryzen 3600.</td>
+            <td>around 260 CAD</td>
+        </tr>
+        <tr>
+            <td>motherboard</td>
+            <td>Connects other parts together. Get a B450.</td>
+            <td>around 150 CAD for a decent one.</td>
+        </tr>
+        <tr>
+            <td>ram</td>
+            <td>Your memory. 16 gb if you're a plebs like me. 32+ if you're a pro.
+                Make sure you're getting ddr4. Forget about timing and speed.
+            </td>
+            <td>around 100 CAD/16 gb set.</td>
+        </tr>
+        <tr>
+            <td>psu</td>
+            <td>The power supply. Don't cheap out. Take the TDP sum of your components
+                with a grain of salt, especially if you're overclocking. However, for this
+                build, I suggest a 500 watt semi modular model (SFX for some ITX builds.
+                But that's another discussion for another day)
+            </td>
+            <td>around 90 CAD</td>
+        </tr>
+        <tr>
+            <td>case</td>
+            <td>Choose a pretty one with okay airflow. Glass panels might look pretty,
+                but they can also suffocate your components. A mesh-front helps with airflow.
+            </td>
+            <td>around 110 CAD</td>
+        </tr>
+        <tr>
+            <td>cpu cooler</td>
+            <td>The stock cooler is fine. But for edginess points you can get a giant
+                dual tower air cooler like the nh-d15 or an AIO liquid cooler. Don't 
+                even think about a custom loop for a Ryzen 3600.
+            </td>
+            <td>potentially 0. Or spend 1000 CAD for a pc-master-race worthy custom loop</td>
+        </tr>
+        <tr>
+            <td>gpu</td>
+            <td>The graphics card. This is the real deal. You should allocate the biggest
+                chunk of your budget for this bad boy. Prepare to spend at least 400 CAD 
+                just for a mid-tier card.
+            </td>
+            <td>
+                200 to 1600 CAD. Sweet spot for most people lies around 400.
+            </td>
+        </tr>
+        <tr>
+            <td>case fans</td>
+            <td>Bring air closer to your gpu and cpu. Also propels the hot air out.
+                Install some at the back of your case as exhaust fans. And some at
+                the front too if you have any left.
+            </td>
+            <td>
+                50 CAD for a set of 5 from Deepcool. That's not bad.
+            </td>
+        </tr>
+        <tr>
+            <td>SSD</td>
+            <td>Solid State Drive. Something to store your data in.
+                Get an NVMe. Makes your life easier. Add 2.5 inch ones later on for 
+                additional capacity. Please don't get a hard drive.
+            </td>
+            <td>
+                around 100 CAD for 512 Gb
+            </td>
+        </tr>
+
+
+    </table>
     <br><br>
-    <div id = "Building Process">
+    <div id="Building Process">
         <h3>Building Process</h3>
         <p>Just search it up on the internet. EZ.</p>
     </div>
-    <div id = "accessory">
+    <div id="accessory">
         <h3>Accessory</h3>
         <p>Accessories don't matter for dull boring people. But if you're the type looking to download
             ram, you should also consider adding lots of RGB to your build. There are several performance
             boosts you can attain from it. They vary by the color:
         </p>
         <ul>
-            <li>red: adds 10% overclocking potential without VRM issues. 
+            <li>red: adds 10% overclocking potential without VRM issues.
                 Additional 5% boost when used in combo with each AMD hardware used.
             </li>
             <li>blue: 10% boost to cooling.
-                Using Team Blue's chips gives no additional benefits.                
+                Using Team Blue's chips gives no additional benefits.
             </li>
-            <li>green: 10% reduction in power draw. 
-                10% boost to minimum fps when using Nvidia gpus. 
+            <li>green: 10% reduction in power draw.
+                10% boost to minimum fps when using Nvidia gpus.
                 Also enable RTX capability to GTX cards once per turn. Shout "Nvidia fanboy" to activate.
             </li>
         </ul>
