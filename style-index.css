@@ -26,3 +26,8 @@ table, td {
     background-color: orchid;    
     text-align: center;
 }
+
+.cost_col {
+    background-color: wheat;
+    text-align: center;
+}
