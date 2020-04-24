@@ -1,6 +1,6 @@
 body, html {
     font-family: 'Raleway', sans-serif;
-    background-color: gainsboro;
+    background: -webkit-linear-gradient(-45deg, #35577D, #141E30);
     margin: 0 0 0 0;
     font-size: 22px;
 }
@@ -10,24 +10,29 @@ body, html {
     
 }
 
+h1 {
+    text-align: center;
+
+}
+
 table, td {
   margin: 0 0 0 0;
 
 }
 
-.part_col {
-    background-color: aqua;
+.part_col, .des_col, .cost_col {
     height: 100px;
     width: 200px;
     text-align: center;
 }
 
-.des_col {
-    background-color: orchid;    
-    text-align: center;
+body {
+    font-weight: bold;
+    color: aliceblue;
 }
 
-.cost_col {
-    background-color: wheat;
+#bottom {
     text-align: center;
+    font-size: 30px;
+
 }
